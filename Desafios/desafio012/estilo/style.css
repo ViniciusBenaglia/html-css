@@ -36,7 +36,10 @@ a:hover {
 }
 
 section{
-    padding-top: ;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
 }
 
 section.normal{
@@ -44,10 +47,13 @@ section.normal{
     color: black;
 }
 
+section.imagem>p{
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 400px;
+}
 section.imagem{
     background-color: rgba(0, 0, 0, 0.582);
     color: white;
-
 }
 
 footer{
